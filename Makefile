@@ -12,6 +12,6 @@ clean:
 	vagrant destroy --force
 	rm -rf ./.vagarnt
 	rm -rf ./data
-	rm -rf ./ubuntu-bionic-18.04-cloudimg-console
+	rm -rf ./ubuntu-bionic-18.04-cloudimg-console.log
 
 .PHONY: all build rebuild clean
